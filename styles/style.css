@@ -1,0 +1,75 @@
+:root {
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-text-color: #757575;
+  --banner-color: #2f303a;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/* site nav */
+
+.side-nav .link {
+  color: var(--primary-text-color);
+}
+
+.side-nav .link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.login-nav .mail {
+  color: var(--secondary-text-color);
+}
+
+.login-nav .mail:hover,
+.login-nav .mail:focus {
+  color: var(--accent-color);
+}
+
+/*adv sect */
+.adv-section {
+  background-color: #2f303a;
+}
+
+.adv-section-title {
+  color: #ffffff;
+}
+
+.section-title {
+  color: var(--primary-text-color);
+}
+
+.section-par {
+  color: var(--secondary-text-color);
+}
+
+/* team */
+
+.team-title {
+  color: var(--primary-text-color);
+}
+
+.team-par {
+  color: var(--secondary-text-color);
+}
+
+.footer {
+  background-color: var(--banner-color);
+}
+
+.footer-title {
+  color: #ffffff;
+}
+
+.button {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
