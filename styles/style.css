@@ -5,25 +5,45 @@
   --banner-color: #2f303a;
 }
 
-
+::selection {
+  color: #ffffff;
+  background-color: #2196f3;
+}
 
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 ul {
   list-style: none;
 }
 
+/* .link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+} */
+
 /* site nav */
 
 .side-nav .link {
   color: var(--primary-text-color);
-}
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  }
+  
 
 .side-nav .link.current {
   color: var(--accent-color);
+  
 }
 
 .side-nav .link:hover,
@@ -33,7 +53,11 @@ ul {
 
 .login-nav .mail {
   color: var(--secondary-text-color);
-}
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  }
 
 .login-nav .link:hover,
 .login-nav .link:focus {
@@ -47,11 +71,27 @@ ul {
 
 .adv-section-title {
   color: #ffffff;
-}
+
+  font-weight: 900;
+  font-style:black;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  }
+
+
+  .button {
+    background-color: var(--accent-color);
+    color: #ffffff;
+    }
+
 
 .section-title {
   color: var(--primary-text-color);
-}
+  }
+
 
 .section-par {
   color: var(--secondary-text-color);
@@ -69,12 +109,6 @@ ul {
 
 .footer {
   background-color: var(--banner-color);
-}
-
-
-.button {
-  background-color: var(--accent-color);
-  color: #ffffff;
 }
 
 
@@ -96,8 +130,9 @@ ul {
 
 .footer-title .link {
   color: #ffffff;
+
 }
 
-.footer-title .mail {
-  color: var(--secondary-text-color)
+.footer-title .mail2 {
+  color: rgba(255, 255, 255, 0.6);
 }
