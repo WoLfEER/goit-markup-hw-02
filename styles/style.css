@@ -20,10 +20,14 @@ ul {
   color: var(--primary-text-color);
 }
 
+.side-nav .link.current {
+  color: var(--accent-color);
+}
+
 .side-nav .link:hover,
 .link:focus {
   color: var(--accent-color);
-}
+} 
 
 .login-nav .mail {
   color: var(--secondary-text-color);
@@ -72,4 +76,16 @@ ul {
 .button {
   background-color: var(--accent-color);
   color: #ffffff;
+}
+
+
+/* portfolio css */
+/* image section */
+
+.image-title {
+ color: var(--primary-text-color);
+}
+
+.image-subtitle {
+  color: var(--secondary-text-color);
 }
