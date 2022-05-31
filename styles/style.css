@@ -14,7 +14,6 @@ body {
   background-color: #ffffff;
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
   letter-spacing: 0.03em;
 }
 
@@ -35,6 +34,7 @@ ul {
 .side-nav .link {
   color: var(--primary-text-color);
   text-decoration: none;
+  font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -55,6 +55,7 @@ ul {
   color: var(--secondary-text-color);
   text-decoration: none;
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   }
@@ -65,62 +66,90 @@ ul {
 }
 
 /*adv sect */
-.adv-section {
+.hero {
   background-color: #2f303a;
 }
 
-.adv-section-title {
+.hero-title {
   color: #ffffff;
-
   font-weight: 900;
-  font-style:black;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 1.36;  
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   }
 
+/* buttons */
 
   .button {
     background-color: var(--accent-color);
     color: #ffffff;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;   
+    text-align: center;
+    letter-spacing: 0.06em
     }
 
+.button-secondary {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+    
 
-.section-title {
+
+.advantages-title {
   color: var(--primary-text-color);
-  }
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
 
 
-.section-par {
+.advantages-par {
   color: var(--secondary-text-color);
+font-size: 14px;
+line-height: 1.71;
 }
 
 /* team */
 
+.section-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+}
+
+
+
 .team-title {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  
+  
 }
 
 .team-par {
   color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
 }
 
 .footer {
   background-color: var(--banner-color);
-}
-
-
-/* portfolio css */
-/* image section */
-
-.image-title {
- color: var(--primary-text-color);
-}
-
-.image-subtitle {
-  color: var(--secondary-text-color);
 }
 
 
@@ -135,4 +164,21 @@ ul {
 
 .footer-title .mail2 {
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* portfolio css */
+/* image section */
+
+.image-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;  
+  letter-spacing: 0.06em;
+}
+
+.image-subtitle {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
 }

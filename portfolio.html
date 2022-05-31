@@ -4,40 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css">
     <title>Portfolio</title>
 </head>
 <body>
         <!-- HEADER-->
-        <header>
-            <nav>
-                <a href="/" class="logo">
-                    <img src="./images/WebStudio.svg" alt="логотип">
+    <header>
+        <nav>
+            <a href="/" class="logo">
+                <img src="./images/WebStudio.svg" alt="логотип">
     
-                </a>
+            </a>
     
-                <ul class="side-nav">
-                    <li><a href="/index.html" class="link">Студия</a></li>
-                    <li><a href="" class="link current">Портфолио</a></li>
-                    <li><a href="" class="link">Контакты</a></li>
-                </ul>
-                <ul class="login-nav">
-                    <li><a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111" class="mail">+38 096 111 11 11</a></li>
-                </ul>
-            </nav>
-        </header>
-
+            <ul class="side-nav">
+                <li><a class="link current" href="">Студия</a></li>
+                <li><a class="link" href="./portfolio.html">Портфолио</a></li>
+                <li><a class="link" href="">Контакты</a></li>
+            </ul>
+            <ul class="login-nav">
+                <li><a class="link mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="link mail" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </nav>
+    </header>
         <!-- Main sector -->
     
       <main>
           <section>
               <ul>
-                  <li><button class="button">Все</button></li>
-                  <li><button class="button">Веб-Сайты</button></li>
-                  <li><button class="button">Приложения</button></li>
-                  <li><button class="button">Дизайн</button></li>
-                  <li><button class="button">Маркетинг</button></li>
+                  <li><button class="button-secondary">Все</button></li>
+                  <li><button class="button-secondary">Веб-Сайты</button></li>
+                  <li><button class="button-secondary">Приложения</button></li>
+                  <li><button class="button-secondary">Дизайн</button></li>
+                  <li><button class="button-secondary">Маркетинг</button></li>
                 </ul>
           </section>
 
@@ -109,16 +112,29 @@
     
         <!-- adress section-->
     
-        <footer class="footer">
-            <a href="/">
-                <img src="/images/WebStudio.svg" alt="logo">
-            </a>
-            <address class="footer-title">
-                г. Киев, пр-т Леси Украинки, 26<br>
-                info@example.com <br>
-                +38 099 111 11 11
-            </address>
-        </footer>
+    <footer class="footer">
+        <a href="/">
+            <img src="./images/WebStudio.svg" alt="logo">
+        </a>
+        <address>
+            <ul class="footer-title">
+                <li>
+                    <a class="link" href="https://goo.gl/maps/xrUxvXRaoUCYZm5W7" target="_blank" rel="noopener noreferrer">
+                        г. Киев, пр-т Леси Украинки, 26</a>
+                </li>
+                <li>
+                    <a class="link mail2" href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li>
+                    <a class="link mail2" href="tel:+380991111111">+38 099 111 11 11</a>
+                </li>
     
-</body>
-</html>
+            </ul>
+        </address>
+    </footer>
+    
+    
+    
+    </body>
+    
+    </html>
