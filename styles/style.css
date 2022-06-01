@@ -29,6 +29,21 @@ ul {
   letter-spacing: 0.02em;
 } */
 
+.logo {
+color: var(--accent-color);
+
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-color {
+  color:#000000;
+  }
+
+
 /* site nav */
 
 .side-nav .link {
@@ -102,6 +117,18 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+.button:hover, :focus {
+  cursor: pointer;
+}
+
+.button-secondary:hover {
+  background-color:  var(--accent-color);
+  color: #ffffff;
+  cursor: pointer;
+
+}
+
     
 
 
@@ -152,17 +179,42 @@ text-align: center;
   background-color: var(--banner-color);
 }
 
+.footer-logo {
+  color: var(--accent-color);
+  
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 
-.footer-title .link:hover, .link:active {
+}
+
+.footer-color{
+  color: #ffffff;
+  
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+
+.footer-title .link:hover, .link:focus {
   color: var(--accent-color)
 }
 
 .footer-title .link {
   color: #ffffff;
 
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
-.footer-title .mail2 {
+.footer-title .mail-footer {
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -171,6 +223,7 @@ text-align: center;
 
 .image-title {
   color: var(--primary-text-color);
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;  
@@ -179,6 +232,7 @@ text-align: center;
 
 .image-subtitle {
   color: var(--secondary-text-color);
+
   font-size: 16px;
   line-height: 1.88;
 }
